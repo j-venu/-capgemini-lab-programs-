@@ -9,8 +9,6 @@ import com.capg.model.Trainee;
 
 public class TraineeDaoImpl implements ITraineeDao {
 public static List<Trainee> traineeList=new ArrayList();
-	@Override
-	
 	public Trainee addTrainee(Trainee trainee) {
 		// TODO Auto-generated method stub
 		if(trainee!=null)
@@ -19,7 +17,6 @@ public static List<Trainee> traineeList=new ArrayList();
 	}
 		return trainee;
 	}
-	@Override
 	public Trainee findTrainee(int id) {
 		// TODO Auto-generated method stub
 		for (Trainee trainee : traineeList) {
@@ -32,7 +29,6 @@ public static List<Trainee> traineeList=new ArrayList();
 		
 	}
 
-	@Override
 	public boolean removeTrainee(int id) {
 		// TODO Auto-generated method stub
 	for (Trainee trainee : traineeList) {

@@ -12,19 +12,16 @@ ITraineeDao dao;
 	// TODO Auto-generated constructor stub
 }
 
-	@Override
 	public Trainee addTrainee(Trainee trainee) {
 		// TODO Auto-generated method stub
 		return dao.addTrainee(trainee);
 	}
 
-	@Override
 	public Trainee findTrainee(int id) {
 		// TODO Auto-generated method stub
 		return dao.findTrainee(id);
 	}
 
-	@Override
 	public boolean removeTrainee(int id) {
 		// TODO Auto-generated method stub
 		return dao.removeTrainee(id);
