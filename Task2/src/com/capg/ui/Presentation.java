@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import com.capg.sorting.SortByAge;
+import com.capg.sorting.SortByHeight;
 import com.capg.sorting.SortByName;
 import com.capg.sorting.Student;
 
@@ -29,6 +30,13 @@ public static void main(String[] args) {
         System.out.println("Sorted by name");
         for (int i=0; i<ar.size(); i++)
             System.out.println(ar.get(i));
+        
+        Collections.sort(ar, new SortByHeight());
+        System.out.println("Sorted by height");
+        for (int i=0; i<ar.size(); i++)
+            System.out.println(ar.get(i));
+
+
 }
 
 }
